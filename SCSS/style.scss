@@ -1,0 +1,38 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+//Header
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+//Estilos generales
+.color-section {
+    background-color: grey
+}
+
+// body {
+//     height: 100%;
+// }
+
+//Home
+@import '_home.scss';
+
+//Proyects
+@import '_proyects.scss';
+
+//Services
+@import '_services.scss';
+
+//About
+@import '_about.scss';
+
+//Contact
+@import '_contact.scss';
+
+//Footer
+@import '_footer.scss';

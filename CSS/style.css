@@ -1,0 +1,126 @@
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.color-section {
+  background-color: grey;
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+/* Estilos en Inicio */
+main .presentation-carousel {
+  padding: 0%;
+}
+main #presentation-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+main #presentation-content .home-sample-img {
+  width: 100%;
+  height: 100%;
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+/* Proyectos */
+#proyects {
+  margin-top: 5rem;
+}
+#proyects div .proyect img {
+  width: 19.9rem;
+  height: 10rem;
+}
+#proyects div .proyect .card-content h5 {
+  font-size: 1.5rem;
+  color: white;
+}
+#proyects div .proyect .card-content p {
+  font-weight: 500;
+}
+
+/* Servicios */
+#services article {
+  margin: 2rem 0rem;
+}
+
+/* Nosotros */
+#about section {
+  margin: 2rem 0rem;
+}
+/* Footer */
+#contact-studio article {
+  margin: 2rem 0rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  align-items: flex-end;
+  background-color: rgb(36, 36, 36);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer nav h4 {
+  color: white;
+}
+footer nav ul {
+  list-style-type: none;
+}
+footer nav ul a {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
