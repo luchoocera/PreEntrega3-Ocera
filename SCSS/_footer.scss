@@ -1,3 +1,7 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
 /* Footer */
 footer {
     display: flex;
@@ -10,12 +14,22 @@ footer {
     padding-bottom: 1rem;
     nav{
         h4{
-            color: white;
+            color: rgb(99, 99, 99);
         }
         ul {
+
             list-style-type: none;
-            a {
-                color: white;
+            li {
+                margin: 0% 0.75rem;
+                a {
+                    color: rgb(99, 99, 99);
+                    &:hover {
+                        color: white;
+                    }
+                    svg{
+                        @include element-size(1.75rem, 1.75rem);
+                    }
+                }
             }
         }
     }

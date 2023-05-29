@@ -142,6 +142,23 @@ main #presentation-content .home-sample-img {
   margin: 2rem 0rem;
 }
 
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -154,13 +171,23 @@ footer {
   padding-bottom: 1rem;
 }
 footer nav h4 {
-  color: white;
+  color: rgb(99, 99, 99);
 }
 footer nav ul {
   list-style-type: none;
 }
-footer nav ul a {
+footer nav ul li {
+  margin: 0% 0.75rem;
+}
+footer nav ul li a {
+  color: rgb(99, 99, 99);
+}
+footer nav ul li a:hover {
   color: white;
+}
+footer nav ul li a svg {
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
