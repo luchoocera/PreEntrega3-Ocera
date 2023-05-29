@@ -11,13 +11,15 @@ header {
 
 
 //Estilos generales
-.color-section {
-    background-color: grey
-}
+
+
 
 // body {
 //     height: 100%;
 // }
+
+//General Styles
+@import '_general-styles.scss';
 
 //Home
 @import '_home.scss';

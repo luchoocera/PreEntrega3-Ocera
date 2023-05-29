@@ -1,6 +1,21 @@
-/* Footer */
-#contact-studio {
-    article {
-        margin: 2rem 0rem;
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+
+/* Contacts */
+
+.contact-studio {
+    @include element-position(center, center);
+    #contact-media {
+        @include element-size(20rem, 100%);
+        @include element-position(center, center);
+        background-color: grey;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        flex-direction: column;
+        article {
+            margin: 2rem 0rem;
+        }
     }
 }

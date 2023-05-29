@@ -21,7 +21,14 @@ header {
   z-index: 1;
 }
 
-.color-section {
+/* Estilos generales */
+main {
+  margin-bottom: 5rem;
+}
+main .main-title {
+  margin: 3rem;
+}
+main .color-section {
   background-color: grey;
 }
 
@@ -97,15 +104,48 @@ main #presentation-content .home-sample-img {
 #about section {
   margin: 2rem 0rem;
 }
-/* Footer */
-#contact-studio article {
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+/* Contacts */
+.contact-studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-studio #contact-media {
+  width: 20rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+.contact-studio #contact-media article {
   margin: 2rem 0rem;
 }
 
 /* Footer */
 footer {
   display: flex;
-  position: relative;
+  position: fixed;
   bottom: 0%;
   width: 100%;
   align-items: flex-end;
