@@ -9,4 +9,21 @@
             }
         }
     }
+    #proyect-method {
+        padding: 2rem 0%;
+        .method-description {
+            margin-bottom: 2rem;
+        }
+        .method-stages {
+            @include element-position(center, center);
+            article {
+                h4{
+                    color: white;
+                }
+                img{
+
+                }
+            }
+        }
+    }
 }

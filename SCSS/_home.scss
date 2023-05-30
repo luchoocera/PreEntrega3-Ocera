@@ -8,12 +8,22 @@ main {
     .presentation-carousel {
         padding: 0%;
     }
-    #presentation-content {
+    #presentation {
         padding-top: 2rem;
         padding-bottom: 2rem;
-        .home-sample-img {
-            @include element-size(100%, 100%);
-        }
+        .presentation-content {
+            @include element-position(center, center);
+
+            .main-logo {
+                display: flex;
+                justify-content: center;
+                color: $color-boreal;
+                margin: 2rem;
+            }
+            .home-sample-img {
+                @include element-size(100%, 100%);
+            }
+        }   
     }
 }
 

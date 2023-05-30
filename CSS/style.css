@@ -20,6 +20,10 @@ header {
   top: 0;
   z-index: 1;
 }
+header .navbar-brand {
+  color: rgb(2, 105, 165);
+  font-weight: 500;
+}
 
 /* Estilos generales */
 main {
@@ -29,7 +33,7 @@ main .main-title {
   margin: 3rem;
 }
 main .color-section {
-  background-color: grey;
+  background-color: rgb(112, 112, 112);
 }
 
 #proyects div .proyect {
@@ -53,11 +57,22 @@ main .color-section {
 main .presentation-carousel {
   padding: 0%;
 }
-main #presentation-content {
+main #presentation {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-main #presentation-content .home-sample-img {
+main #presentation .presentation-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #presentation .presentation-content .main-logo {
+  display: flex;
+  justify-content: center;
+  color: rgb(2, 105, 165);
+  margin: 2rem;
+}
+main #presentation .presentation-content .home-sample-img {
   width: 100%;
   height: 100%;
 }
@@ -83,6 +98,9 @@ main #presentation-content .home-sample-img {
 #proyects {
   margin-top: 5rem;
 }
+#proyects div .proyect {
+  transition: all 0.25s;
+}
 #proyects div .proyect img {
   width: 19.9rem;
   height: 10rem;
@@ -94,6 +112,9 @@ main #presentation-content .home-sample-img {
 #proyects div .proyect .card-content p {
   font-weight: 500;
 }
+#proyects div .proyect:hover {
+  transform: scale(1.25);
+}
 
 /* Servicios */
 #services article {
@@ -103,6 +124,20 @@ main #presentation-content .home-sample-img {
 /* Nosotros */
 #about section {
   margin: 2rem 0rem;
+}
+#about #proyect-method {
+  padding: 2rem 0%;
+}
+#about #proyect-method .method-description {
+  margin-bottom: 2rem;
+}
+#about #proyect-method .method-stages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about #proyect-method .method-stages article h4 {
+  color: white;
 }
 #proyects div .proyect {
   margin: 5rem 6rem;
@@ -128,7 +163,7 @@ main #presentation-content .home-sample-img {
   align-items: center;
 }
 .contact-studio #contact-media {
-  width: 20rem;
+  width: 25rem;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -138,8 +173,18 @@ main #presentation-content .home-sample-img {
   border-radius: 1rem;
   flex-direction: column;
 }
-.contact-studio #contact-media article {
+.contact-studio #contact-media .contact-item {
   margin: 2rem 0rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+.contact-studio #contact-media .contact-item img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 0%;
+  margin-right: 1.5rem;
 }
 
 #proyects div .proyect {

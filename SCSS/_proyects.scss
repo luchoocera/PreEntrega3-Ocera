@@ -21,6 +21,10 @@
                 font-weight: 500;
                }
             }
+            transition: all 0.25s;
+            &:hover {
+                transform: scale(1.25);
+            }
         }
     }
 }
