@@ -21,7 +21,7 @@ header {
   z-index: 1;
 }
 header .navbar-brand {
-  color: rgb(2, 105, 165);
+  color: rgb(0, 96, 151);
   font-weight: 500;
 }
 
@@ -33,7 +33,7 @@ main .main-title {
   margin: 3rem;
 }
 main .color-section {
-  background-color: rgb(112, 112, 112);
+  background-color: rgb(110, 110, 110);
 }
 
 #proyects div .proyect {
@@ -69,7 +69,7 @@ main #presentation .presentation-content {
 main #presentation .presentation-content .main-logo {
   display: flex;
   justify-content: center;
-  color: rgb(2, 105, 165);
+  color: rgb(0, 96, 151);
   margin: 2rem;
 }
 main #presentation .presentation-content .home-sample-img {
@@ -131,14 +131,25 @@ main #presentation .presentation-content .home-sample-img {
 #about #proyect-method .method-description {
   margin-bottom: 2rem;
 }
+#about #proyect-method .method-description h2 {
+  color: white;
+}
 #about #proyect-method .method-stages {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+}
+#about #proyect-method .method-stages article svg {
+  color: rgb(0, 96, 151);
+  margin-bottom: 0.75rem;
 }
 #about #proyect-method .method-stages article h4 {
   color: white;
 }
+#about #proyect-method .method-stages article p {
+  font-weight: 500;
+}
+
 #proyects div .proyect {
   margin: 5rem 6rem;
   width: 20rem;
@@ -172,6 +183,7 @@ main #presentation .presentation-content .home-sample-img {
   padding: 1rem 2rem;
   border-radius: 1rem;
   flex-direction: column;
+  margin: 3rem 0%;
 }
 .contact-studio #contact-media .contact-item {
   margin: 2rem 0rem;
